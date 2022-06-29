@@ -28,11 +28,14 @@ public class DriverPanelMain extends AppCompatActivity {
         txt1=findViewById(R.id.hellotext);
         btn=findViewById(R.id.signout);
 
-        if(!SharedPrefManager.getInstance(this).isLoggedIn()){
-            finish();
-            startActivity(new Intent(this, DriverSignInEng.class));
-        }
 
-        txt1.setText(SharedPrefManager.getInstance(this).getUsername());
+        imageView11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
+
 }

@@ -37,21 +37,17 @@ public class DriverSignInEng extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_manager_sign_in_eng);
+        setContentView(R.layout.activity_driver_sign_in_eng);
+
         uname = findViewById(R.id.username);
         pass = findViewById(R.id.password);
         btn = findViewById(R.id.signin);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (uname.getText().toString().equals("admin") && pass.getText().toString().equals("admin")) {
-                    Intent intent = new Intent(getApplicationContext(), ManagerPanelMain.class);
-                    startActivity(intent);
-                } else {
-                    Toast.makeText(DriverSignInEng.this, "Invalid information", Toast.LENGTH_SHORT).show();
-                }
+                Intent intent= new Intent(getApplicationContext(), DriverPanelMain.class);
+                startActivity(intent);
             }
-
         });
     }
 }

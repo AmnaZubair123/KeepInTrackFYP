@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFE3E3"
     android:paddingHorizontal="10dp"
     tools:context=".ui.calendar.CalendarMain">
 
@@ -24,8 +23,6 @@
         android:layout_height="wrap_content"
         android:text="add a task."
         android:textSize="20sp"
-        android:textColor="#989898"
-        android:fontFamily="sans-serif-condensed-medium"
         android:layout_centerInParent="true"
         android:visibility="invisible"/>
 
@@ -34,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/headerTextView"
-        tools:listitem="@layout/item_task"/>
+        tools:listitem="@layout/item_task" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/homeFabButton"

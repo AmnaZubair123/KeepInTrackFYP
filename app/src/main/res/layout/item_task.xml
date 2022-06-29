@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="12dp"
-    android:backgroundTint="#F1BCBC"
     android:elevation="15dp"
     app:cardCornerRadius="8dp">
 
@@ -20,12 +19,12 @@
             android:id="@+id/item_task_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/item_checkBox"
             android:ellipsize="end"
             android:fontFamily="sans-serif"
             android:maxLines="2"
             android:text="Sample Task text view"
-            android:layout_toEndOf="@id/item_checkBox"
-            android:layout_centerVertical="true"
             android:textColor="@color/black"
             android:textSize="16sp" />
 

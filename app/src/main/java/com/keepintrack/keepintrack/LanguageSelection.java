@@ -28,7 +28,7 @@ public class LanguageSelection extends AppCompatActivity {
         btnurdu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(getApplicationContext(),ManagerSignInUrdu.class);
+                Intent intent= new Intent(getApplicationContext(),RoleSelectionUrdu.class);
                 startActivity(intent);
             }
         });

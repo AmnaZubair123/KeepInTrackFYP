@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFE3E3"
     android:padding="18dp"
     tools:context=".ui.calendar.UpdateTaskActivity">
 
@@ -40,7 +39,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:backgroundTint="#F1BCBC"
         app:cardCornerRadius="10dp">
 
         <LinearLayout
