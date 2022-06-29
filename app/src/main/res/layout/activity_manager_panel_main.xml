@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start"
+    tools:context=".ManagerPanelMain">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/text" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_alignBottom="@+id/toolbar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="-3dp"
+            app:srcCompat="@drawable/keepintrack"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginRight="41dp" />
+
+        <Button
+            android:id="@+id/tracktomap"
+            android:layout_width="218dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/forget"
+            android:text="Track"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="70dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/car"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Vehicle"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/budget"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Income"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="70dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/comments"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Chats"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/www"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+                android:text="Dashboard"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </GridLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navmenu"
+        app:menu="@menu/menu"
+        app:headerLayout="@layout/nav_header_manager_panel_main"
+        android:layout_gravity="start"/>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

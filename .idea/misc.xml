@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/drawable-v21/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/drawable/edittext_background.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/drawable/item_background.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/drawable/side_nav_bar.xml" value="0.1115" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/drawable/update_button_bg.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/AndroidManifest.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_add_task.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_calendar_main.xml" value="0.1774193548387097" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_driver_panel_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_driver_sign_in_eng.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_driver_sign_in_urdu.xml" value="0.17239583333333333" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_language_selection.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_manager_panel_main.xml" value="0.16404077849860982" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_manager_sign_in_eng.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_manager_sign_in_urdu.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_new_task.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_order_adding.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_order_details.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_order_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_purchase_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_register_driver.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_role_selection_eng.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_role_selection_urdu.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/activity_update_task.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/content_manager_panel_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/item_task.xml" value="0.1" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/item_todo.xml" value="0.22" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/layout/nav_header_manager_panel_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/menu/menu.xml" value="0.18645833333333334" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1135" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1135" />
+        <entry key="..\:/data e drive/KeepInTrack/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
